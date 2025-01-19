@@ -36,7 +36,7 @@ public class Initialisation {
     public static Set<Pair> initiatePairs() {
         List<String> colors = Arrays.asList("Red", "Blue", "Green", "Yellow", "Purple", "Orange", "Pink", "Brown", "Cyan", "Magenta", "Lime", "Teal", "Lavender", "Black", "White", "Gray", "Gold", "Silver", "Beige", "Maroon");
         Random random = new Random();
-        int numberOfPairs = random.nextInt(300) + 1;  // Generate a random number of pairs (between 1 and 11)
+        int numberOfPairs = random.nextInt(300) + 1;  // Generate a random number of pairs (between 1 and 300)
         Set<Pair> pairs = new HashSet<>();
 
         while (pairs.size() < numberOfPairs) {
